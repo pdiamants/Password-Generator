@@ -1,9 +1,10 @@
+/*set sizing*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/*body design*/
 body {
     background-color: gray;
     justify-content: center;
@@ -12,6 +13,7 @@ body {
     min-height: 100vh;
 }
 
+/*Header and h1 design*/
 .header {
     background-color:aqua;
     padding-top: 40px;
@@ -25,7 +27,7 @@ body {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+/*design for text an password input*/
 input {
     padding: 5px;
     height: 40px;

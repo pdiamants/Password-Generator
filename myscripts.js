@@ -1,12 +1,13 @@
+//saved vaiables and elements//
 var password = document.querySelector('#password');
 var button = document.querySelector('button');
 
-
+//Data for password//
 var characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^';
 var passwordLength = 15;
 var passwordValue = '';
 
-
+//Password Creation//
 var createPassword = () => {
     passwordValue = '';
 
@@ -17,5 +18,5 @@ var createPassword = () => {
 
     password.value = passwordValue;
 }
-
+//Button Effect//
 button.addEventListener('click', createPassword);
