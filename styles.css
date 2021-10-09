@@ -36,9 +36,3 @@ input {
 input:Generate Password{
     font-size: 30px;
 }
-
-#gen-button {
-    border-radius: 5px;
-    cursor: pointer;
-}
-
